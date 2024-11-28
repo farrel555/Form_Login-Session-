@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php endif; ?>
 
     <!-- Form Registrasi -->
-    <form action="" method="POST">
+    <form action="login.html" method="POST">
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username" required><br><br>
 
